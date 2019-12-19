@@ -1,0 +1,30 @@
+
+.dialogs{
+display: grid;
+grid-template-columns: 4fr 8fr;
+}
+
+.dialogItems{
+    padding: 10px;
+}
+.dialog{
+    padding-left: 10px;
+    border: solid grey 1px;
+    height: 40px;
+    line-height: 40px;
+}
+.dialogItems img{
+    margin-right: 10px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+.dialogItems .active{
+    color: red;
+}
+.sendMessage{
+    margin-top: 50px;
+}
+.messages{
+    padding: 10px;
+}
